@@ -8,7 +8,6 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  color: var(--degrade-btn);
 }
 .background-verde {
   background: var(--verde-escuro);
@@ -17,7 +16,8 @@ body {
 .container {
   max-width: 1400px;
   padding: 0px 5%;
-  margin: 0 auto;
+  margin: 0px auto;
+  background: var(--verde-escuro);
 }
 .container nav {
   display: flex;
@@ -36,9 +36,17 @@ body {
   align-items: center;
 }
 .ul li {
-  margin: 0px 35px;
   font-size: 15px;
+  margin: 10px 35px;
 }
 .ul li a {
-    color: whitesmoke;
+  color: whitesmoke;
+}
+
+.btn-gradient {
+  background-image: var(--degrade-btn, linear-gradient(#fe9611, #ff5c00));
+  padding: 10px 25px;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
