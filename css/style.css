@@ -10,3 +10,35 @@ body {
   font-family: "Poppins", sans-serif;
   color: var(--degrade-btn);
 }
+.background-verde {
+  background: var(--verde-escuro);
+}
+/* classes reutilizáveis */
+.container {
+  max-width: 1400px;
+  padding: 0px 5%;
+  margin: 0 auto;
+}
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+.logo a {
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+}
+.ul li {
+  margin: 0px 35px;
+  font-size: 15px;
+}
+.ul li a {
+    color: whitesmoke;
+}
