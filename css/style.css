@@ -32,8 +32,8 @@ body {
 }
 
 .ul {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 .ul li {
   font-size: 15px;
@@ -77,4 +77,23 @@ div .main-text h1 {
 }
 .main-img img {
   width: 100%;
+}
+/* menu icon */
+.menu-icon {
+  display: none;
+}
+
+/* RESPONSIVIDADE MIDIA */
+@media (max-width: 960px) {
+  .menu-icon {
+    display: block;
+  }
+  .ul {
+    position: fixed;
+    background-color: red;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+  }
 }
