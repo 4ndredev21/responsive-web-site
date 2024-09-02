@@ -42,11 +42,40 @@ body {
 .ul li a {
   color: whitesmoke;
 }
-
-.btn-gradient {
+.btn-gradiente {
   background-image: var(--degrade-btn, linear-gradient(#fe9611, #ff5c00));
   padding: 10px 25px;
   border: none;
   color: white;
   cursor: pointer;
+}
+/* MAIN */
+main .container {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.main-text {
+  color: white;
+  width: 50%;
+}
+
+div .main-text h1 {
+  font-size: 4.5rem;
+}
+.core {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main-img {
+  width: 50%;
+}
+.main-img img {
+  width: 100%;
 }
