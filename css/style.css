@@ -108,4 +108,22 @@ div .main-text h1 {
   .ul.ativo {
     left: 0px;
   }
+
+  main .container {
+    flex-direction: column;
+  }
+  main .container .main-img {
+    width: 100%;
+  }
+  main .container .main-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  main .container .main-text h1 {
+    font-size: 4rem;
+  }
+  .core {
+    justify-content: center;
+  }
 }
