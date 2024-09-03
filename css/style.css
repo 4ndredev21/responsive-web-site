@@ -71,13 +71,11 @@ div .main-text h1 {
   align-items: center;
   margin-top: 20px;
 }
-
+.main-img img,
 .main-img {
-  width: 50%;
-}
-.main-img img {
   width: 100%;
 }
+
 /* menu icon */
 .menu-icon {
   display: none;
