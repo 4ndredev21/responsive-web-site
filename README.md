@@ -31,6 +31,10 @@ JavaScript
 Manipulação do DOM para elementos interativos.
 📜 Créditos 4ndreDev and Matheus.
 Este projeto utiliza a fonte Poppins do Google Fonts.
+## 🌐 Acesse o Projeto
+
+[Clique aqui para visualizar o site responsivo](https://4ndredev21.github.io/responsive-web-site/) 🌟
+
 
 ## 🌟 Prévia do Projeto
 
